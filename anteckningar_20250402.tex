@@ -11,29 +11,46 @@
 
 \frenchspacing % No double spacing between sentences
 \linespread{1.2} % Set linespace
-\usepackage[a4paper, lmargin=2cm, rmargin=2cm, tmargin=2cm, bmargin=1.8cm]{geometry} %margins
-%\usepackage{parskip}
+\usepackage[a4paper, lmargin=2cm, rmargin=2cm, tmargin=1cm, bmargin=1.8cm,
+includehead,
+nomarginpar,% We don't want any margin paragraphs
+textwidth=17cm,% Set \textwidth to 10cm
+headheight=10mm,% Set \headheight to 10mm
+]{geometry} %margins
+\usepackage{fancyhdr}
 
 \usepackage[all]{nowidow} % Tries to remove widows
 \usepackage[protrusion=true,expansion=true]{microtype} % Improves typography, load after fontpackage is selected
 
 %-----------------------
 \hypersetup{ 	
-pdfsubject = {},
-pdftitle = {Anteckningar, LC},
-pdfauthor = {J Jacob Wikner}
+pdfsubject = {Anteckningar},
+pdftitle = {Anteckningar, LC Distrikt, Miljögrupperna},
+pdfauthor = {J Jacob Wikner},
+colorlinks=true,
+linkcolor=blue,
+filecolor=magenta,      
+urlcolor=cyan,
+pdfpagemode=FullScreen    
 }
 
-\title{Anteckningar, Miljögrupperna LC International, Distrikt 101S}
-% \author{J Jacob Wikner}
+\title{Anteckningar, Miljögrupperna, LC International, Zon 6, Distrikt 101S}
+\author{} %J Jacob Wikner}
 
 %-----------------------
 % Begin document
 %-----------------------
 \begin{document}
 \maketitle
-
-\section{Anteckningar}
+\pagestyle{fancy}
+%... then configure it.
+\fancyhead{} % clear all header fields
+\fancyhead[RO,LE]{\textbf{Anteckningar, 2025-04-02}}
+\fancyfoot{} % clear all footer fields
+\fancyfoot[LE,RO]{\thepage}
+\fancyhead[LO,CE]{\includegraphics[height=32pt]{figs/LCI_emblem_2color_web.png}}
+%\fancyfoot[LO,CE]{From: K. Grant}
+%\fancyfoot[CO,RE]{To: Dean A. Smith}
 
 \begin{table}[h]
   \center
@@ -41,24 +58,30 @@ pdfauthor = {J Jacob Wikner}
     Datum & 2025-04-02 \\ \hline
     Plats & Skälby loge, Kalmar \\ \hline
     Värd för dagens möte &  LC Borgholm \\ \hline
-    Närvarande  &  LC Torsås, LC Borgholm, LC Nybro, LC Kalmar, LC Högsby, LC Färjestaden. \newline
+    Närvarande  &  LCTorsås, LC~Borgholm, LC~Nybro, LC~Kalmar, LC~Högsby, LC~Färjestaden. \newline
     Elva lejon + besökare från Kalmar kommun (men lejonkoppling via släktband) \\ \hline
-    Anteckningar & J~Jacob Wikner, LC Mörbylånga 
+    Anteckningar & J~Jacob Wikner, LC Mörbylånga, \href{mailto:jjwikner@gmail.com}{jjwikner@gmail.com} \\ \hline
+    Distribution & \href{mailto:jjwikner@gmail.com}{jjwikner@gmail.com}, \href{mailto:svenokerstin@live.se}{svenokerstin@live.se}, \href{mailto:cmpdendrodesign@hotmail.com}{cmpdendrodesign@hotmail.com}, \href{mailto:lisa@xek.se}{lisa@xek.se}, m.fl. \ldots
    \end{tabular}
 \end{table}
-  
 
-Carl Magnus Persson, LC Mörbylånga, och Kerstin Ahlbäck, LC Borgholm, hälsar välkomna.
 
+\section{Välkommen}
+
+Kerstin Ahlbäck, LC Borgholm, och Carl Magnus Persson, LC Mörbylånga, hälsar välkomna.
+Vi börjar med fika och presentationsrunda.
 
 \section{Besök av Kalmar Kommun}
 
-Vi har besök av Sanna Andersson, miljö- och klimatstrateg på Kalmar kommun.
+Vi har besök av Sanna Andersson, klimat- och miljöstrateg på Kalmar kommun (\href{sanna.andersson3@kalmar.se}{sanna.andersson3@kalmar.se}).
 Hon ger en överblick om miljöproblem och Kalmar kommuns miljö- och klimatarbete.
-I Kalmar kommun jobbar 3 personer med huvudansvar.
+I Kalmar kommun jobbar tre personer med huvudansvar för området.
 
-\subsection{Lösa anteckningar från presentationer}
-Snabba anteckningar från presentation av Sanna. Materialet distribuerades också av Sanna till clubbarna.
+\subsection{Lösa anteckningar från presentationen}
+Lösa och översiktliga anteckningar från presentation av Sanna.
+Materialet distribuerades till clubbarna.
+Se \href{https://drive.google.com/file/d/1YFRy9aKXgjax-PG_uBX6mUw-uPgGtokU/view?usp=sharing}{(Kalmar kommuns miljö- och klimatarbete, del 1)} och \href{https://drive.google.com/file/d/1i5cKcDhBcyRaRvuqarhPM3Op02g_-FOt/view?usp=sharing}{(Kalmar kommuns miljö- och klimatarbete, del 2)}.
+
 \begin{itemize}
   \item Vad är klimatförändringar, varför förändras klimatet, hur förändras klimatet
     Beskriver tidsskalan och hur kort tid som människan varit på jorden.
@@ -75,7 +98,7 @@ Paradoxalt nog ser man att ett minskat utsläpp av partiklar bidrar till att tem
 
 \item Scenario, åren 2071--2100. +1.5 - 5 grader varmare, 8-24 dygn högsommar jfr med 3 idag. Blötare, 5-25% mer nederbörd. Men samtidigt --5 - --25\% lägre markfuktighet under sommaren.
 
-\item Medeltemperaturen har väsentligen höjts konstant sedan 1860.
+\item Medeltemperaturen har höjts väsentligen konstant sedan 1860.
 
 \item Brist på vatten kommer bli ett problem, men även höjning av havsnivån.
 Blekinge-Kalmarkusten ett av 10 riskområden för förhöjda havsnivåer.
@@ -93,9 +116,9 @@ Blekinge-Kalmarkusten ett av 10 riskområden för förhöjda havsnivåer.
 \item Klimatomställning eller klimatanpassning?
   \textbf{Hindra och/eller lindra?}
   
-\item Bruntlandkommissionen (1997): tredimensionell hållbarhet. Samma möjligheter ska säkerställas för framtida generationer. 
+\item Brundtlandkommissionen (1997): tredimensionell hållbarhet. Samma möjligheter ska säkerställas för framtida generationer. 
 
-\item Kalmar är på plats 29 av 290 kommuner i hur bra man ligger till på miljöarbetssidan.
+\item Kalmar är på plats 29 av 290 kommuner mätt i hur bra man ligger till med miljöarbetet (en mängd olika kostnadsmått vägs samman).
 
 \item Kalmariten behöver minska utsläppen från 9 ner till 1 ton per år och person 2050.
 
@@ -107,69 +130,87 @@ Blekinge-Kalmarkusten ett av 10 riskområden för förhöjda havsnivåer.
 
 \item Klimatanpassningsplan (var blir det problem? Äldreomsorg, bebyggelse, mm). Skyfallsplan (säkerställa samhällsviktig verksamhet). Vattenförsörjningsplan (dricksvattenförsörjning).
 
-\item 3-30-300: Se tre träd från hus. 30\% träd per yta. 300m till grönyta.
+\item Konceptet 3-30-300: Se tre träd från hus. 30\% träd per yta. 300m till grönyta.
 
   \item Ekopodden. Kalmar kommuns podcast.
 
-  \item Tips på sätt att använda sin konsumentmakt.
+  \item Tips på sätt att använda sin konsumentmakt för att styra miljöbeslut.
 
 \item Kom ihåg! Det är inte för sent.
 
-\item Naturvårdsverket har gett ut en bok: ``En varmare värld'', tredje upplagan.
-  
-  \verb|https://www.naturvardsverket.se/publikationer/1300/en-varmare-varld|
+\item Naturvårdsverket har gett ut en bok:   \href{https://www.naturvardsverket.se/publikationer/1300/en-varmare-varld}{``En varmare värld'', tredje upplagan.}
 
     
 \end{itemize}
 
-
 \section{Vad händer i clubbarna?}
-Vi tar varvet runt och beskriver det som sker i de olika clubbarna.
+Vi tar varvet runt och beskriver det som sker i de olika clubbarna med avseende på miljöarbetet.
 
 \subsection{LC Borgholm}
-Tipspromenad med miljötema veckan innan världsmiljödagen.
+Tipspromenad hålls varje helg.
+Speciellt miljötema kommer hållas veckan innan världsmiljödagen.
 
 \subsection{LC Nybro}
-Försöker påtala ämnet miljö hela tiden. Tala inom clubben på möten och nämna ämnet för att medvetandegöra.
+Påtalar aktivt ämnet miljö under möten och sammankomster.
+Tala inom clubben på möten och nämna ämnet för att medvetandegöra.
 Förslag på att plocka skräp under världsmiljödagen.
 
 \subsection{LC Mörbylånga}
-Jacob Wikner beskriver arbetet tillsammans med Skansenskolan och Mörbylånga kommun. Det har varit skräpsamling och det finns ett program inför världsmiljödagen. Vi ska ha en popup-loppis i Karlevi i Påsk. Välkomna!
+Jacob Wikner beskriver arbetet tillsammans med Skansenskolan (högstadiet) och Mörbylånga kommun.
+Det har varit skräpsamling och det finns ett program inför världsmiljödagen.
+Vi ska ha en popup-loppis i Karlevi i Påsk med återbruk i åtanke och tema skräp och vatten.
+Tipspromenad och fika. Välkomna!
 
 \subsection{LC Högsby}
-Inga planer ännu inför världsmiljödagen. Allmänna tankar kring miljö i möten. Undviker plast i sammanhangen.
+Inga planer ännu inför världsmiljödagen.
+Allmänna tankar kring miljö i möten.
+Undviker plast i sammanhangen.
 
 \subsection{LC Kalmar}
 Undviker plast. Försöker samåka där det går.
-Studiebesök Moskogen, KSRR.
+Har haft intressant studiebesök på Moskogen (KSRR).
 
 \subsection{LC Torsås}
-Har inte haft en miljöansvarig per se.
-Loppis i Gullabo sedan ett antal år. Återanvändning och cirkularitet i åtanke.
+Har ingen just nu utsedd miljöansvarig.
+Loppis i Gullabo sedan ett antal år med återanvändning och cirkularitet i åtanke.
 
-(Lionståget, lok med tre vagnar, som lånas av LC Högsby. Insamling av medel. Transporteras med lastbil mellan de olika orterna.)
+(Lionståget, lok med tre vagnar, som lånas av LC Högsby. Insamling av medel.)
 
 \subsection{LC Färjestaden}
 Loppis 365 dagar om året.
-Finns inget i detalj planerat under året. Loppisen är den stora faktorn.
+Finns inget i detalj planerat under året med just temat miljö.
+Loppisen är den stora faktorn med återbruk och cirkularitet i åtanke.
 
-\section{Allmän information och frågar}
+\section{Allmän information och frågor}
 
 \subsection{Zonmöte}
-Calle (LC Mörbylånga) informerar om zonmötet i juni och att det ska utses miljökoordinatorer i clubben.
+Calle (LC Mörbylånga) informerar om zonmötet i juni och att det ska utses miljökoordinatorer i clubbarna.
 
-\subsection{Nästa möte -- miljöträffen}
+\subsection{Nästa möte med miljögrupperna}
+
+Nästa möte inträffar under nästa arbetsår.
 
 Till nästa möte: titta på miljömanifestet som vi har skapat tidigare. Tänk på hur vi kan uppdatera det och hålla det levande.
 
-Borgholm och Mörbylånga har varit värdar de senaste åren.
+LC Borgholm och LC Mörbylånga har varit värdar de senaste åren.
 
-LC Färjestaden tar bollen att höra med sin styrelese och återkommer. Lovar att återkomma senast siste april.
+LC Färjestaden tar bollen att höra med sin styrelse och återkommer om de kan leda mötet.
+Lovar att återkomma senast siste april.
 
-Plan B: Kan LC Emmaboda vara ett alternativ. 
+Plan B: Kan LC Emmaboda vara ett alternativ? 
 
 \subsection{Inkommet brev}
-Ahlbäck, LC Borgholm, presenterar utdrag från mejl från Elisabeth Magnusson, LC Romeleåsen. Information om miljöarbete, mm. Se bilagor.
+Kerstin Ahlbäck, LC Borgholm, presenterar utdrag av mejl från Elisabeth Magnusson, Distriktet/LC~Romeleåsen.
 
+Materialet omfattar information om miljöarbete, mm.
+Se t.ex. tips om tipspromenad, diverse tips på aktiviteter och informationsblad som kan spridas i verksamheten.
+\href{https://drive.google.com/file/d/1vYT9ujxSpDl-wxA_4NE8HqybtCya5Rnv/view?usp=sharing}{[Sammanfattning av tips]}
+
+\section{Mötet avslutas}
+Vid cirka 19.40 avslutar vi mötet.
+
+\section{Källor}
+Se bilagor (PDF, DOC, och PPT) att ladda ner på
+\href{https://drive.google.com/drive/folders/1NU1iIbVoHtMDIEwPayR9GR10s5UctEki?usp=sharing}{[Google Drive Folder]}.
 
 \end{document}
